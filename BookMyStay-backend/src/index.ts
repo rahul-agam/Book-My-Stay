@@ -3,7 +3,12 @@ import cors from 'cors';
 import 'dotenv/config';
 import mongoose from 'mongoose';
 
-// mongoose.connect(process.env.MONGODB_CONNECTION_STRING as string);
+
+// mongoose.connect('mongodb+srv://rahul:rahul@mern-cluster.cvkqpl5.mongodb.net/?retryWrites=true&w=majority&appName=mern-cluster').then(() => {
+//     console.log('Mongodb is connected');
+// }).catch((err) => {
+//     console.log(err);
+// })
 
 const app = express();
 
